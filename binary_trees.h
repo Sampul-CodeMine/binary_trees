@@ -69,7 +69,13 @@ void binary_tree_postorder(const binary_tree_t *, void (*func)(int));
 /* Getting the Height of the Binary Tree */
 size_t binary_tree_height(const binary_tree_t *);
 
-/*Getting the Depth of the Binary Tree */
+/* Getting the Depth of the Binary Tree */
 size_t binary_tree_depth(const binary_tree_t *);
+
+/* Getting the size of a Binary Tree */
+size_t binary_tree_size(const binary_tree_t *);
+
+/* Counting the number of leaves in a Binary Tree */
+size_t binary_tree_leaves(const binary_tree_t *);
 
 #endif /* BINARY_TREES_H */
