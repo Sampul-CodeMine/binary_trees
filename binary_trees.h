@@ -46,4 +46,9 @@ binary_tree_t *binary_tree_node(binary_tree_t *, int);
 /* Insert New Node Left */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *, int);
 
+/* Insert New Node Right*/
+binary_tree_t *binary_tree_insert_right(binary_tree_t *, int);
+
+
+
 #endif /* BINARY_TREES_H */
