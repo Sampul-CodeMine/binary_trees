@@ -48,7 +48,10 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *, int);
 /* Insert New Node Right*/
 binary_tree_t *binary_tree_insert_right(binary_tree_t *, int);
 
-/* Delet an entire Binary Tree */
+/* Delete an entire Binary Tree */
 void binary_tree_delete(binary_tree_t *);
+
+/* Check if node is a leaf */
+int binary_tree_is_leaf(const binary_tree_t *);
 
 #endif /* BINARY_TREES_H */
