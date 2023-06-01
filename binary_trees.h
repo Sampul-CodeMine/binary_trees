@@ -66,4 +66,10 @@ void binary_tree_inorder(const binary_tree_t *, void (*func)(int));
 /* Post-Order Traversal */
 void binary_tree_postorder(const binary_tree_t *, void (*func)(int));
 
+/* Getting the Height of the Binary Tree */
+size_t binary_tree_height(const binary_tree_t *);
+
+/*Getting the Depth of the Binary Tree */
+size_t binary_tree_depth(const binary_tree_t *);
+
 #endif /* BINARY_TREES_H */
