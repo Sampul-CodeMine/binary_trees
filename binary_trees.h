@@ -78,4 +78,25 @@ size_t binary_tree_size(const binary_tree_t *);
 /* Counting the number of leaves in a Binary Tree */
 size_t binary_tree_leaves(const binary_tree_t *);
 
+/* Count node with a least one child */
+size_t binary_tree_nodes(const binary_tree_t *);
+
+/* Check if the binary tree is balanced. */
+int binary_tree_balance(const binary_tree_t *);
+
+/* Parent Sibling of a current node's parent */
+binary_tree_t *binary_tree_uncle(binary_tree_t *);
+
+/* Check if the tree is perfect */
+int binary_tree_is_perfect(const binary_tree_t *);
+
+/* Find the sibling of a node */
+binary_tree_t *binary_tree_sibling(binary_tree_t *);
+
+/* If Binary tree is full */
+int binary_tree_is_full(const binary_tree_t *);
+
+/* Uncle of the Binary Tree Node */
+binary_tree_t *binary_tree_uncle(binary_tree_t *);
+
 #endif /* BINARY_TREES_H */
