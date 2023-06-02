@@ -99,4 +99,14 @@ int binary_tree_is_full(const binary_tree_t *);
 /* Uncle of the Binary Tree Node */
 binary_tree_t *binary_tree_uncle(binary_tree_t *);
 
+/* Lowest Common Ancestor */
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *,
+		const binary_tree_t *);
+/* Level Order Traversal */
+void binary_tree_levelorder(const binary_tree_t *,
+		void (*func)(int));
+
+
+
+
 #endif /* BINARY_TREES_H */
