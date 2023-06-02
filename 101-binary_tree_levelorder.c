@@ -10,14 +10,14 @@ void bt_porder_helper(const binary_tree_t *, void (*func)(int), size_t);
  * Return: Nothing
  */
 void binary_tree_levelorder(const binary_tree_t *tree,
-			void (*func)(int))
+		void (*func)(int))
 {
 	size_t depth;
 	size_t height;
 
 	if (tree == NULL || func == NULL)
 		return;
-	
+
 	height = binary_tree_height(tree) + 1;
 
 	for (depth = 1; depth <= height; depth++)
