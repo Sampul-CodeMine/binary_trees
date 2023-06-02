@@ -4,10 +4,10 @@
 int help_checker(const binary_tree_t *, size_t, size_t);
 
 /**
- * binary_tree_is_complete - function to check if the binary tree is complete 
+ * binary_tree_is_complete - function to check if the binary tree is complete
  * @tree: the tree to check
- * Return: 1 if tree is complet
- * 	   0 if the tree is not complete or is NULL
+ * Return: 	1 if tree is complete
+ * 		0 if the tree is not complete or is NULL
  */
 int binary_tree_is_complete(const binary_tree_t *tree)
 {
